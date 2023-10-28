@@ -1,0 +1,36 @@
+h1 {
+    font-family: Kablammo, cursive;
+    text-shadow: 0px 0px 20px darkblue,
+        0px 0px 2px wheat,
+        0px 0px 3px gray,
+        0px 0px 5px blue;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+
+.menu-item {
+    font-size: 1.3em;
+    background-color: #cde7ff;
+    font-family: Kablammo, cursive;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    
+}
+a{
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+img{
+    
+    width: 80%;
+    margin: 20px;
+    box-shadow: 10px 10px 20px black ;
+    border: 5px solid;
+}
