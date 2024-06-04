@@ -1,0 +1,8 @@
+.fon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, white, rgb(0, 100, 255), blue, black);
+    color: white;
+}
