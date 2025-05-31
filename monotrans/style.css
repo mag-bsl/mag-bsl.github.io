@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffb601;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(0, 0, 0) #ffb601;
+}
+
+.rotate {
+    transform: rotate(43deg);
+    transition: 0.3s;
+}
+
+.btn-close {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    right: 10px;
+    top: 10px;
+    font-size: 2.5em;
+    inset: 2rem 2rem auto auto;
+    display: none;
+}
+
+.btnPrice {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btnPrice:hover {
+    transform: scale(1.03);
+}
+
+.rotate:hover {
+    transform: rotate(180deg) rotate(43deg);
+}
+
+.Blur {
+    background-color: rgb(131, 131, 131, 0.5);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 1030;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+p {
+    font-family: Play, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    padding: 0;
+    padding-left: 50px;
+    background: rgb(0, 0, 0);
+
+}
+
+.btnBron {
+    font-size: 1.5rem;
+    font-family: Play, sans-serif;
+    background: #ffb601;
+    border-radius: 2em;
+    padding: 10px;
+    margin: auto;
+    transition: .2s;
+}
+.btnBron:hover{
+    transform: scale(1.1);
+}
+
+.nav-item {
+    color: #f0c661;
+    border-right: 1px solid #f0c661;
+    align-self: center;
+    padding: 0 1.12rem 0 1.12rem;
+    font-family: Play, sans-serif;
+    font-size: 1.125rem;
+    line-height: 125%;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.nav-link {
+    transition: .2s;
+    color: #f0c661;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    color: #ffb601;
+}
+.navbar-brand,
+.logo {
+    padding: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.dropdown-menu {
+    background: rgb(0, 0, 0);
+}
+
+.dropdown-item {
+    color: #f0c661;
+}
+
+.dropdown-item:hover {
+    background-color: #f0c661 !important;
+}
+
+.dropdown-item:active {
+    color: black;
+    text-decoration: 1px;
+}
+
+.hero-landing {
+    color: black;
+    max-width: 37.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Play, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.hero-text {
+    color: #000c;
+    font-family: Play, sans-serif;
+    font-size: 1.25rem;
+    line-height: 120%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.persi {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-image: url(fon.svg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.btn-1-item {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    border-radius: 2rem;
+    padding: 1.3rem 2.4rem;
+    font-family: Play, sans-serif;
+    font-size: 1.25rem;
+    line-height: 100%;
+    transition: all .2s;
+    box-shadow: 0 14px 8px 6px #0003;
+}
+
+.logo-text {
+    width: 40%;
+    opacity: 0.6;
+    font-weight: 700;
+    font-family: Play, sans-serif;
+    font-size: 2em;
+    position: relative;
+    top: -40px;
+    left: 50%;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 1px rgb(131, 131, 131);
+    color: rgb(70, 70, 70);
+}
+
+.rama {
+    background-color: #000;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.Yellow {
+    font-family: Play, sans-serif;
+    font-size: 4.25rem;
+    line-height: 120%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    color: #f0c661;
+}
+
+.Yellow2 {
+    font-family: Play, sans-serif;
+    font-size: 4.25rem;
+    font-weight: 900;
+    line-height: 120%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #f0c661;
+}
+
+.Treti-text {
+    text-align: center;
+}
+
+.White {
+    color: white;
+    font-family: Play, sans-serif;
+    font-size: 1.25rem;
+    line-height: 120%;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.phone {
+    color: #f0c661;
+}
+
+.drugi-foto {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.Bigae-drugi {
+    transform: translateX();
+}
+
+.Bigae-treti-h2 {
+    transform: translateX();
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* висота/ширина скрола */
+}
+
+::-webkit-scrollbar-track {
+    background: #ffb601;
+    ;
+    /*смужка */
+}
+
+::-webkit-scrollbar-thumb {
+    /*те, що їздить */
+    background-color: rgb(0, 0, 0);
+    /* border: 3px solid rgb(163, 163, 163);  */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /*те, що їздить */
+    background-color: rgb(0, 0, 0);
+}
+
+.martop {
+    margin-top: 30px;
+}
+
+.my-card-1 {
+    position: relative;
+
+}
+
+.card-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.card-orange {
+    transition: 0.5s;
+    transform: translate(15px, -15px) scale(1.1);
+    transform-origin: center;
+}
+
+.info-card-1 {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    height: 0;
+    max-width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #0000008d;
+    transition: 0.5s;
+}
+
+.card-1-number {
+    text-align: center;
+    font-size: 2.75em;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.card-1-title {
+    /* margin-top: 1em; */
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+.my-card-1:hover .card-orange {
+    transform: rotate(14deg) translate(15px, -15px) scale(1.1);
+}
+
+.my-card-1:hover .info-card-1 {
+    color: black;
+}
+
+.bordur-4 {
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #0000004d;
+    border-radius: 1.25rem;
+    margin: .63rem;
+    padding: 5rem 3.75rem;
+    background-image: url(fon2.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+
+}
+
+.bordur-h1 {
+    font-family: Play, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.my-card-2 {
+    box-shadow: 16px 0 14px #0003;
+    background-color: #fff;
+    border-radius: 1.25rem;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 2.5rem;
+    display: flex;
+}
+
+.card-2-wrap {
+    padding: 20px;
+}
+
+.card-img-2 {
+    padding: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.card-2-text {
+    font-family: Play, sans-serif;
+    font-size: 1.5rem;
+    line-height: 134%;
+}
+
+.info-card-2 {
+    transition: all 0.2s;
+}
+
+.info-card-2:hover {
+    transform: scale(1.04);
+}
+
+.bgblack {
+    overflow: hidden;
+    margin: .63rem;
+    background: #000;
+    border-radius: 1.25rem;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.p-n5 {
+    color: white;
+    max-width: 33.8rem;
+    font-size: 1.375rem;
+    line-height: 130%;
+    padding-left: 50px;
+}
+
+.InputPrice {
+    font-family: Play, sans-serif;
+    width: 80%;
+    color: white;
+    background-color: black;
+    border-color: #ffb601;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 1em;
+}
+
+.btnPrice {
+    font-size: 2rem;
+    font-family: Play, sans-serif;
+    background: #ffb601;
+    border-radius: 2em;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.caruimg {
+    border-radius: 1rem;
+    max-height: 50rem;
+    max-width: 30rem;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background: #000;
+}
+
+.footicon {
+    margin-left: 10px;
+    transition: .3s;
+    width: 45px;
+    height: 45px;
+}
+
+.footicon:hover {
+    transform: scale(1.1);
+}
+
+.icon-phone {
+    width: 36px;
+    height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffb601;
+}
+
+.endtext {
+    color: grey;
+}
+
+.endlogo {
+    color: white;
+    display: flex;
+    align-items: center;
+}
